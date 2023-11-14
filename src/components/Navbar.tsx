@@ -1,6 +1,6 @@
 const Navbar = () => {
   return (
-    <nav className="bg-gray-950 text-2xl text-white p-4 font-primary">
+    <nav className="bg-gray-900 text-2xl text-white p-7 font-primary lg:backdrop-blur bg-opacity-80">
       <div className="container mx-auto flex justify-between items-center">
         <div className="font-semibold">Studio Horsma</div>
         <ul className="flex space-x-4">
