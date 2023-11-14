@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Ysabeau+Infant:wght@300&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -6,6 +7,19 @@
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
+}
+
+.font-header {
+  font-family: 'Cormorant Garamond', sans-serif;
+  font-size: 6.5rem;
+}
+
+.font-primary {
+  font-family: 'Cormorant Garamond', serif;
+}
+
+.font-secondary {
+  font-family: 'Ysabeau Infant', serif;
 }
 
 @media (prefers-color-scheme: dark) {
