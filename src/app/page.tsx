@@ -17,7 +17,7 @@ export default function Home() {
       <Sidebar isOpen={isSidebarOpen} toggleSidebar={toggleSidebar} />
       <main className="flex min-h-screen flex-col items-center justify-center text-center">
         <div className="flex flex-col md:flex-row items-center justify-between text-white my-20">
-          <div className="w-20 md:flex-1 mb-5 md:mb-0 mr-10">
+          <div className="w-20 md:flex-1 mb-5 md:mb-0 md:mr-10">
             <img
               className="w-full object-cover rounded-full"
               src="studio-horsma.jpg"
@@ -26,7 +26,7 @@ export default function Home() {
           </div>
 
           <div className="mx-auto">
-            <h1 className="font-header">Studio Horsma</h1>
+            <h1 className="font-header font-bold">Studio Horsma</h1>
           </div>
         </div>
 

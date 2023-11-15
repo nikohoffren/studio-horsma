@@ -1,5 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
+import { MenuIcon } from "@heroicons/react/outline";
 
 const Navbar = ({ toggleSidebar }: any) => {
   return (
@@ -14,7 +15,7 @@ const Navbar = ({ toggleSidebar }: any) => {
           onClick={toggleSidebar}
           className="lg:hidden px-3 py-2 rounded text-gray-200 hover:text-white hover:bg-gray-700"
         >
-          X
+          <MenuIcon className="h-6 w-6" />
         </button>
         <ul className="hidden lg:flex space-x-4">
           <li>
