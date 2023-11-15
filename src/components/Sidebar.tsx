@@ -1,7 +1,6 @@
 import React from "react";
 
 const Sidebar = ({ isOpen, toggleSidebar }: any) => {
-
   return (
     <div
       className={`absolute top-0 left-0 w-64 bg-gray-800 h-full z-50 transform ${
