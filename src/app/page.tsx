@@ -1,3 +1,5 @@
+/* eslint-disable @next/next/no-img-element */
+
 "use client";
 import Footer from "@/components/Footer";
 import Navbar from "../components/Navbar";
@@ -14,7 +16,20 @@ export default function Home() {
       <Navbar toggleSidebar={toggleSidebar} />
       <Sidebar isOpen={isSidebarOpen} toggleSidebar={toggleSidebar} />
       <main className="flex min-h-screen flex-col items-center justify-center text-center">
-        <h1 className="font-header mt-16 mb-10">Studio Horsma</h1>
+        <div className="flex flex-col md:flex-row items-center justify-between text-white my-20">
+          <div className="w-20 md:flex-1 mb-5 md:mb-0 mr-10">
+            <img
+              className="w-full object-cover rounded-full"
+              src="studio-horsma.jpg"
+              alt="Studio Horsma logo"
+            />
+          </div>
+
+          <div className="mx-auto">
+            <h1 className="font-header">Studio Horsma</h1>
+          </div>
+        </div>
+
         <div
           className="bg-cover bg-center w-full"
           style={{ backgroundImage: "url('/horsma.jpg')" }}

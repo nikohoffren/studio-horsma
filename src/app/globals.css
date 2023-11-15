@@ -11,7 +11,7 @@
 
 .font-header {
   font-family: 'Cormorant Garamond', sans-serif;
-  font-size: 6.5rem;
+  font-size: 7.9rem;
 }
 
 .font-primary {
@@ -25,9 +25,8 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 235, 255, 255;
-    --background-start-rgb: 1, 5, 10;
-
-    --background-end-rgb: 0, 0, 0;
+    --background-start-rgb: 1, 15, 20;
+    --background-end-rgb: 0, 0, 1;
   }
 }
 

@@ -7,7 +7,7 @@ export default function About() {
       <div className="flex flex-col md:flex-row items-center justify-between text-white">
         <div className="w-full md:flex-1 mb-5 md:mb-0">
           <img
-            className="w-full h-auto md:w-2/3 md:h-2/3 object-cover rounded-full mx-auto"
+            className="w-full h-auto md:w-2/3 md:h-2/3 object-cover rounded-3xl mx-auto"
             src="HHheidi1.jpg"
             alt="Heidi Kääriäinen"
           />

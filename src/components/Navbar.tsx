@@ -1,10 +1,15 @@
+/* eslint-disable @next/next/no-img-element */
 import React from 'react';
 
 const Navbar = ({ toggleSidebar }: any) => {
   return (
     <nav className="bg-gray-900 text-2xl text-white p-7 font-primary lg:backdrop-blur bg-opacity-80">
       <div className="container mx-auto flex justify-between items-center">
-        <div className="font-semibold">Studio Horsma</div>
+      <img
+              className="w-10 object-cover rounded-full"
+              src="studio-horsma.jpg"
+              alt="Studio Horsma logo"
+            />
         <button onClick={toggleSidebar} className="lg:hidden px-3 py-2 rounded text-gray-200 hover:text-white hover:bg-gray-700">
           X
         </button>
