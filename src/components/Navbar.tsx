@@ -2,7 +2,11 @@
 import React from "react";
 import { MenuIcon } from "@heroicons/react/outline";
 
-const Navbar = ({ toggleSidebar }: any) => {
+type SidebarProps = {
+  toggleSidebar: () => void;
+};
+
+const Navbar = ({ toggleSidebar }: SidebarProps) => {
   return (
     <nav className="bg-gray-900 text-2xl text-white p-7 font-primary lg:backdrop-blur bg-opacity-80">
       <div className="container mx-auto flex justify-between items-center">

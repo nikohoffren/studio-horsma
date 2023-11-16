@@ -2,7 +2,12 @@
 import { XIcon } from "@heroicons/react/outline";
 import React from "react";
 
-const Sidebar = ({ isOpen, toggleSidebar }: any) => {
+type SidebarProps = {
+  isOpen: boolean;
+  toggleSidebar: () => void;
+};
+
+const Sidebar = ({ isOpen, toggleSidebar }: SidebarProps) => {
   return (
     <div
       className={`absolute top-0 left-0 w-64 bg-gray-800 h-full z-50 transform ${
